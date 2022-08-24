@@ -1,0 +1,59 @@
+.text {
+  padding-left: 12.5rem;
+  width: 100%;
+  float: right;
+  background-color: rgba(225, 255, 255, 0.548);
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  font-size: x-large;
+  align-items: center;
+}
+.Page_header {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  background-color: rgb(132, 200, 255);
+  padding: 0.75rem;
+}
+.d {
+  padding-top: 10px;
+  list-style-type: decimal;
+}
+.task {
+  margin: inherit;
+}
+button {
+  background-color: rgb(199, 222, 236);
+  border-radius: 5px;
+  font-size: x-large;
+  text-align: left;
+  margin: 5px;
+  padding: 0 5px 0 5px;
+}
+button:hover {
+  background-color: lightskyblue;
+}
+input:focus {
+  background-color: rgb(199, 222, 236);
+}
+::marker {
+  color: rgb(18, 0, 182);
+  font-weight: bold;
+}
+.Link {
+  justify-content: center;
+  text-decoration: none;
+}
+p {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.p {
+  cursor: text;
+  text-decoration: none;
+}
+div .background {
+  background-color: rgba(225, 255, 255, 0.548);
+}

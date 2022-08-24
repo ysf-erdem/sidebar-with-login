@@ -1,0 +1,51 @@
+#grad1 {
+  height: 60.5rem;
+  background-color: rgb(82, 139, 192);
+  background-image: linear-gradient(rgb(233, 242, 245), rgb(126, 177, 180));
+  padding-top: 22rem;
+}
+.log {
+  text-align: center;
+  border: 1px solid rgb(60, 135, 206);
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  padding: 1rem 3rem 1rem 3rem;
+  border-radius: 50px;
+  background-color: rgba(225, 255, 255, 0.548);
+  font-size: larger;
+  box-shadow: rgb(66, 88, 110) -10px 20px 20px -10px;
+}
+div .login {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+h2 {
+  color: rgb(0, 83, 161);
+}
+input {
+  border-color: rgb(82, 139, 192);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  padding: 0.5rem;
+}
+input:focus {
+  background-color: rgb(199, 236, 233);
+}
+.button {
+  color: rgb(1, 0, 82);
+  background-color: transparent;
+  border: transparent;
+  border-radius: 50px;
+  font-size: x-large;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-style: oblique;
+}
+.button:hover {
+  background-color: rgb(141, 194, 247);
+  cursor: pointer;
+  box-shadow: rgb(66, 88, 110);
+  transition: 0.3s ease;
+}

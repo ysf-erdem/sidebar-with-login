@@ -1,0 +1,36 @@
+.sidebar {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  height: 100%;
+  width: auto;
+  background-color: rgb(132, 200, 255);
+  padding: 0 20px 0 20px;
+}
+.sidebar.open {
+  width: auto;
+}
+.sidebar.open .ul-item p {
+  display: none;
+}
+.ul-item li {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-block: 20px;
+  font-size: xx-large;
+}
+.ul-item li:hover {
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s ease;
+}
+.ul-item li p {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.menu-icon .menu {
+  color: rgb(168, 0, 0);
+  margin-block: 20px;
+  cursor: pointer;
+  font-size: xx-large;
+}
